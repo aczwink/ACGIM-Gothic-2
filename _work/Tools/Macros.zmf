@@ -1,0 +1,51 @@
+[Compile Addon]
+reset
+set error 3
+Load world addon\ADDON_PART_ADANOSTEMPLE_01.ZEN
+Load world addon\ADDON_PART_BANDITSCAMP_01.ZEN
+Load world addon\ADDON_PART_CANYON_01.ZEN
+Load world addon\ADDON_PART_ENTRANCE_01.ZEN
+Load world addon\ADDON_PART_GOLDMINE_01.ZEN
+Load world addon\ADDON_PART_PIRATESCAMP_01.ZEN
+Load world addon\ADDON_PART_VALLEY_01.ZEN
+compile world outdoor
+compile light high
+
+[Compile DragonIsland]
+reset
+set error 3
+Load world newworld\NEWWORLD_PART_DRAGON_ISLAND_01.ZEN
+Load world newworld\NEWWORLD_PART_DRAGON_FINAL_01.ZEN
+compile world outdoor
+compile light high
+
+[Compile NewWorld]
+reset
+set error 3
+Load world newworld\NEWWORLD_PART_CITY_01.ZEN
+Load world newworld\NEWWORLD_PART_FARM_01.ZEN
+Load world newworld\NEWWORLD_PART_FOREST_01.ZEN
+Load world newworld\NEWWORLD_PART_GREATPEASANT_01.ZEN
+Load world newworld\NEWWORLD_PART_MONASTERY_01.ZEN
+Load world newworld\NEWWORLD_PART_PASS_TO_OW_01.ZEN
+Load world newworld\NEWWORLD_PART_SHIP_01.ZEN
+Load world newworld\NEWWORLD_PART_TROLLAREA_01.ZEN
+Load world newworld\NEWWORLD_PART_XARDAS_01.ZEN
+compile world outdoor
+compile light high
+
+[Compile OldWorld]
+reset
+set error 3
+Load world oldworld\SURFACE.ZEN
+Load world oldworld\OLDCAMP.ZEN
+compile world outdoor
+compile light high
+
+[kloster]
+reset
+set error 3
+Load world newworld\NEWWORLD_PART_MONASTERY_01.ZEN
+compile world outdoor
+compile light high
+

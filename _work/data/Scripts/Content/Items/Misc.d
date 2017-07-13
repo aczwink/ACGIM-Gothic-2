@@ -1,0 +1,1 @@
+instance Item_Misc_BlankScroll(C_Item){    name = "Leere Spruchrolle";    mainflag = ITEM_KAT_NONE;	flags = ITEM_MULTI;	value = 100;	visual = "Itmi_VBE_BlankScroll_01.3DS";	material = MAT_LEATHER;	description = "Leere Spruchrolle";	text[2] = "Das ist sehr sorgfältig verarbeitetes Papyrus...";	text[5] = NAME_Value;	count[5] = value;};

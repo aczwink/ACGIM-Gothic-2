@@ -1,0 +1,161 @@
+v0.2.1
+-Cavalorn tritt nun erst zur Gruppe bei wenn man "Lass uns die Kerle aufmischen" sagt
+-Wenn man Constantino Pilze gibt, werden sie nun gelöscht damit man sie nicht einfach zurück kaufen und ihm wieder geben kann
+-Der Spieler braucht nun keine magische Steintafel mehr wenn er das erste mal mit Vatras darüber redet. Eine alte Steintafel oder eine magische genügt. Er wird ja dann sagen dass er nur die alten haben will.
+-Wenn der Spieler Vatras mehrere Steintafeln gibt sagt dieser nun "Wegen der Steintafeln... ich habe einige davon" aus dem Dialog mit Erol
+-Bug gefixt dass Babo an der falschen Stelle das falsche gemacht hat wenn man ihm den Klostergarten übergibt
+
+v0.2
+-Im Kloster, neben der Treppe in den Keller, ist nun ein kleiner Raum, in dem unter anderem eine Innosstatue, an der Sergio betet, ist
+-Der ursprüngliche Raum mit Sergio ist nun ein Durchgang nach draußen geworden
+-Draußen, links neben dem Kloster, bauen die Novizen nun Wein(insperiert von VarusBiker bzw. der VBE Mod; Weinpflanzen von dort kopiert), Getreide und Pflanzen für Tränke an. Außerdem gibt es dort eine Wiese an der nun Opolos mit den Schafen ist.
+-Die Feuernesseln vor dem Kloster sind nun etwas besser versteckt. Diese waren viel zu leicht zu finden. Sie sind immer noch in der Nähe des Klosters
+-Die Steintafel für Lebensenergie, die im Minental im Durchgang zwischen Vulkan und Hosh-Pak liegen sollte, ist nun tatsächlich da. Durch einen Fehler der Entwickler lag sie an der Weltposition (0, 0, 0) (Name des Spawnpunktes war falsch)
+-Opolos schläft nun auch nachts
+-Opolos hütet auch noch die Schafe wenn er den Zugang zur Bibliothek bekommt. Er steht zwei Stunden früher auf um in der Bibliothek zu lernen und hütet sonst die Schafe wobei er dabei Schriftstücke liest.
+-Igaraz und der Novize quatschen nun nicht mehr dauernd, sondern lesen beide aufmerksam Papiere und sprechen dann darüber und wieder von vorne...
+-Im Kloster sind nun zusätzlich zwei Hammel
+-Im Kloster gibt es nun einen neuen Novizen namens Nabiz, der an den Weinreben arbeitet
+-Wenn man sich entscheidet dass Dyrian im Kloster bleiben darf, hilft er bei den Weinreben
+-Der Novize Babo kann nun nach der Prüfung des Feuers den Klostergarten übernehmen, denn der ist eh unbesetzt (Agon ist eh weg oder tot). Dies zählt nun nicht mehr als Wunsch.
+-Bei der Paladinrüstung ist nun für den Helden das Visier unten (Modell von: Dalai Zoll)
+-In Xardas' Turm wurden noch doch alle Pflanzen entfernt. Constantinos Aufnahmequest sollte nicht zu einfach sein
+-Erfahrung zum nächstem Level wurde verändert. Sie ist nun: exp_next + (level + 1) * step. Wobei "step" sich durch "(250 + (level / 10) * 50)" errechnet. Der step ist im Originalspiel konstant 500. Durch die Veränderung wächst der step mit steigendem Level (immer in 10-Level-Schritten). Dadurch kann man Anfangs etwas leichter leveln und später dann schwerer. Das Spiel soll dadurch anfangs nicht so extrem schwer sein.
+-Die Riesenratte ist nun auf Level 4.
+-Der schwarze Wolf ist nun auf Level 8.
+-Der Waran ist nun Level 14.
+-Der Snapper ist nun Level 14, der Rudelführer Level 15.
+-Der Ork-Späher ist nun Level 18.
+-Das niedere Skelett ist nun Level 18.
+-Der Sumpfgolem und der Steingolem sind nun Level 28.
+-Der Feuerwaran ist nun Level 32.
+-Der Orkkrieger mit mittlerer Waffe ist nun Level 34, hat 110 Stärke und 330 Lebenspunkte.
+-Der Orkkrieger mit schwerer Waffe ist nun Level 36, hat 120 Stärke und 350 Lebenspunkte.
+-Der Skelettmagier ist nun Level 35.
+-Der Orkschamane ist nun Level 38, Hosh-Pak und der Anführer der Horde sind Level 40.
+-Der orkische Obert ist nun Level 50.
+-Der Troll und der Höhlentroll sind Level 55.
+-Der Dämon ist nun Level 55, der Dämonenlord ist Level 65.
+-Die "Ambient-XP", die man für die meisten Nebenquests bekommt, errechnet sich nun durch "kapitel * 100" und ist somit doppelt so hoch.
+-Talentpunkt LP-Kosten geändert. Die in DNDR waren nervig weil dadurch relativ früh schon alles viel zu viel LP gekostet hat. Die Idee, dass je besser man wird desto schwieriger man lernt finde ich aber gut. Die neuen Stufengrenzen sind: 80, 120, 150, 180, 200. Es wird zum Ende hin immer schwerer und nicht ständig zwischendrin.
+-LP Kosten für Waffentalent, magische Kreise, Sprachen zurück auf Werte aus DNDR gestellt.
+-Die Statuette reicht nun nicht mehr aus um im Kloster aufgenommen zu werden. Das Schaf ist trotzdem notwendig
+-Abgerissene Kleidung korrigiert (Umsetzung von juno1)
+-Es gibt nun eine Arbeiterkleidung für Arbeiter in der Stadt (Textur von RysaPL "Citizen/worker")
+-Die beiden Arbeiter bei Garvell tragen nun die Arbeiterkleidung
+-Es gibt nun eine Handwerkerkleidung (Textur von MonsterMadness "Handwerkerkleidung")
+-Thorben trägt die Handwerkerkleidung
+
+
+
+v0.1.3
+-Jorgen sagt jetzt beim ersten Treffen nicht mehr doppelt "Hey, du" wenn man nicht zum Kloster gehört
+-Bugfixes bei der Gruppenfunktionalität
+
+v0.1.2
+-Der Pirat im Piratenlager, der am Feuer steht, heißt jetzt "Charles"
+-Der Pirat im Piratenlager, der auf der Bank sitzt, heißt jetzt "Flint"
+-Der Pirat, der neben Henry am Hämmern ist, heißt jetzt "Johnny"
+-Der Pirat, der neben Henry am Sägen ist, heißt jetzt "Willy"
+-Der Bandit neben Skinner im Banditenlager, der am Kochen ist, heißt jetzt "Roman"
+-Bill zeigt im Dialog jetzt auch die richtigen Lernpunktekosten für den Taschendiebstahl an
+-Henry bringt einem nicht mehr Armbrustschießen bei, denn er trägt gar keine
+-Alligator Jack hat jetzt einen Bogen, da er zum einen ein Jäger ist und zum anderen dem Helden Bogenschießen beibringt
+-Der Held sagt jetzt auch was, wenn er Vatras mehrere Steintafeln gibt
+-Es kommt nun eine Info wenn jemand der Gruppe beitritt oder sie verlässt, ähnlich wie in Gothic 3
+-Rechtschreibfehler im Dialog mit Cornelius korrigiert
+-Esteban hat nun nur noch 4 statt 5 roten Steintafeln dabei
+
+v0.1.1
+-In Xardas' Turm liegen jetzt keine Goblin Beeren, Snapperkraut und Drachenwurzel mehr, da Constantinos Aufnahmequest dadurch praktisch keine Schwierigkeit mehr bereitete
+-Cavalorn wurde abgezogen, also hat er jetzt keine Ausrüstung mehr für den Helden. Er trägt jetzt am Anfang einen Schweren Ast. Sein Schwert und seinen Bogen kriegt er zurück sobald die Banditen tot sind. Genauso kann man ihn dann nach der Ausrüstung fragen
+-Bug gefixt, dass Cavalorn und die südliche Stadtwache nicht auf die zerissenen Klamotten reagiert haben wie wenn der Held keine Rüstung trägt
+-Bug gefixt, dass man beim Ofen immer ein Fleischstück bekommt auch wenn man nichts brät
+-Lares sagt nun nicht mehr dass der Held die Rüstung des Rings des Wassers nicht in der Stadt anziehen kann, da das eh jedem egal ist
+
+v0.1
+-Alle Auflösungen auswählbar
+-Modtitel zum Hauptmenü hinzugefügt
+-PC_Rockefeller entfernt
+-PC_Magetest entfernt
+-Held ist jetzt auch Nackig und trägt zu Beginn zerissene Klamotten (weil sonst bei z.B. der Novizenrobe die abgerissenen Klamotten an den Beinen sichtbar sind)
+-Bosper sagt jetzt auch was wenn man ihm Keilerfelle gibt
+-Rechtschreibfehler im Tagebuch korrigiert: Wenn man Garond nach Informationen zu den Drachen fragt und dieser einen zu Oric schickt
+-"Willkommens"-Konversation mit Bronko überarbeitet. Das Gespräch ist jetzt viel logischer
+-Der Held fragt nun Pardos wie es ihm geht und nicht Pardos sich selbst
+-Bug gefixt bei dem der Held AlligatorJack fragt was er Jagt obwohl er es schon gesagt hat
+-Bei der Feldrübe wird nun auch der Lebensenergie-Bonus im Menü angezeigt
+-Bug gefixt bei dem beim Erz-Zweihänder der Schaden im Menü nicht sichtbar war
+-Schwarzes Trollfell ist jetzt 1000 Goldstücke Wert
+-Beim CharacterHelper wurden die Optionen "1 Erz geben" und "zeig mal dingens" entfernt
+-Beim CharacterHelper wurde der "Sprache lernen"-Dialog gefixt
+-Beim CharacterHelper gibt das Sprache lernen ein visuelles Feedback
+-Bug beim Dialog "Alle Diebestalente" mit CharacterHelper gefixt, bei dem man die Talente nur bei Auswahl der "zurück" Option bekam
+-Bug beim Dialog mit CharacterHelper gefixt, bei dem das Lernen von Crawlerplatten und Minecrawlerzangen vertauscht war
+-Im Dialog mit Scatty wird nun korrekterweise "1 LP/10 Prozent" für das Goldhacken angezeigt
+-Schaden vom Dolch auf 10 erhöht
+-Schaden und benötigte Stärke vom schweren Ast auf 5 verringert
+-Itemhoshi entfernt
+-PC_Itemfeller entfernt
+-Bug mit Samuels Händlerdialog gefixt, welcher das nicht existierende Item "Ri_ProtFire02" statt "ItRi_Prot_Fire_02" ins Inventar hinzufügte
+-Constantino gibt jetzt mehr Gold für Dunkelpilze statt für Buddlerfleisch, da er in dem Dialog ja klar sagt dass er Dunkelpilze lieber hat
+-Wenn man von Pyrokar die hohe Feuerrobe erhält, bringt dieser einem auch die Manaregeneration (1 Punkte pro Sekunde) bei
+-Trinkt der Magier die Tränen Innos, heilt er sich in Zukunft von selbst (1 Lebenspunkt pro Sekunde)
+-Bug gefixt dass Pryokar schon ab 250 Mana sagt dass er einem nichts mehr beibringen kann wenn man mit "zurück" reagiert
+-Vatras lehrt nun bis 180 Manapunkte
+-Erol lehrt nur noch bis 140 Stärke
+-Die Pfannen in Khorinis tragen jetzt auch einen Namen
+-In der einen beschlagnahmten Truhe von Matteo in der die Bürger-Kleidungen sind, waren die Rüstungen fälschlicherweise gestapelt. Dieses Problem wurde behoben.
+-Die Grüne Steintafel gab es in der Truhe im Sumpf fälschlicherweise 2 mal (man nimmt sie ja Franco gleich wieder ab). Nun gibt es sie nur noch einmal.
+-Wenn man Novize wird, ändert sich die Gangart auf die der Novizen und Magier
+-Held wird mit steigender Stärke breiter
+-Magierroben haben mehr Resistenz gegen Magie und noch etwas mehr Resistenz gegen Feuer (ist schließlich ihr Element)
+-Absolventen der Prüfung des Feuers bekommen nun eine Adeptenrüsstung (Textur von dennis15, knnut@web.de, http://alteslager.jimdo.com/ext-mod/), da es ihnen an Erfahrung und Wissen mangelt
+-Wenn man als Magier das Auge Innos geheilt hat bekommt man die Feuerrobe
+-Nachdem man als Magier Pyrokar erzählt hat, wo die Hallen von Irdorath zu finden sind, ernennt dieser einen zum hohen Feuermagier und gibt ihm die hohe Feuerrrobe
+-Komplett neues Konzept fürs Goldhacken: Es gibt pro Ader unendlich viel Gold. 5 mal konsekutives erfolgreiches Hauen gibt einen Brocken und 50:50 Chance die Goldhack-Fähigkeit um 2% zu steigern. Talent gibt Chance erfolgreich zu hauen. Hat man 4 mal konsekutiv daneben gehauen, kann man den Trümmerschlag ansetzen, bei dem man maximal einen Brocken erlangen kann. Die Chance dafür ist die der Fähigkeit des Goldhackens aber maximal 75%.
+-Erzhacken eingeführt. Konzept ist genauso wie beim Goldhacken, nur gibt es ein eigenes Talent für Erzhacken. Durch learning by doing kann sich das Talent um maximal 1 Punkt steigern. Bei einem Trümmerschlag ist die maximale Chance 30%.
+-Gold- und Erzhacken wird zusammen gelernt, wobei beim Erztalent die Hälfte von der Talentpunktzahl zum Gold gelernt wird, nie aber mehr als 4 Talentpunkte auf einmal
+-An Bratpfannen und Öfen lassen sich jetzt per Dialog mehrere Fleischstücke auf einmal braten
+-An Kesseln kann man kochen
+-Wenn man bei Constantino als Lehrling anfängt und ihm 50 Dunkelpilze gegeben hat, bringt dieser einem einen manasteigenden Trank bei (nur Constantino hat diese Rezeptur). Dadurch soll es für Magier attraktiver sein bei ihm in die Lehre zu gehen, da er vorher relativ nutzlos war.
+-Berserkeraxt hat nun einen Wert von 5000 Goldstücken
+-Berserkeraxt macht nun 150 Schaden und benötigt 150 Stärke
+-Barbarenstreitaxt kostet nun 10000 Goldstücke
+-Barbarenstreitaxt macht nun 200 Schaden und benötigt 170 Stärke. Diese Axt sieht einfach viel schwerer und gefährlicher aus.
+-Bei Khaled gibts die Berserkeraxt jetzt erst im 4. Kapitel zu kaufen
+-Die Drachenschneide gibts jetzt nicht mehr bei Tandor zu kaufen
+-Die Drachenschneide kostet jetzt 10000 Goldstücke
+-Die Barbarenstreitaxt hat nun einen Kommentar warum sie die beste ist. Es ist nunmal ne Axt und kein Schwert, hat also ne viel größere Wucht.
+-Die Drachenschneide enthält nun im Menü eine Information dass es ein spezielles Schwert (reine Erzklinge) des Hammerclans aus Nordmar ist
+-Rethon, Onar und Bennet verkaufen die Barbarenstreitaxt jetzt nicht mehr
+-Khaled verkauft die Barbarenstreitaxt im 5. Kapitel an Drachenjäger
+-Orkschlächter macht nun nur noch 120 Schaden
+-Betty macht nun nur noch 120 Schaden
+-Folteraxt macht nun nur noch 115 Schaden
+-Das El-Bastardo macht nun 125 Schaden
+-Die gesegnete Erzklinge macht nun 130 Schaden
+-Engor verkauft die Drachenjägerarmbrust nun nicht mehr
+-Khaled verkauft die Drachenjägerarmbrust im 3. Kapitel an Söldner oder Drachenjäger
+-Die Drachenjägerarmbrust kostet jetzt 7000 Goldstücke
+-Die Drachenjägerarmbrust hat nun noch einen kleinen Eintrag im Menü, der darauf hinweist wie außerordentlich die Waffe ist
+-Rosi verkauft nun weder den Knochenbogen noch die Kriegsarmbrust
+-Khaled verkauft den Drachenbogen nun nicht mehr
+-Bosper verkauft den Drachenbogen nun erst im 5. Kapitel
+-Bosper verkauft den Knochen- und Eichenbogen nun schon im 3. Kapitel
+-Die schwere Drachenjägerrüstung ist jetzt noch besser. Ihr Schutz gegen Waffen ist 180, gegen Feuer 120 (Drachenschuppen) und gegen Magie (magisches Erz) 70.
+-Niemand trägt mehr die schwere Drachenjägerrüstung, außer Gorn auf der Dracheninsel. Gorn (Minental, Khorinis), Kurgan, Sylvio und Cipher tragen die mittlere.
+-Als Magier kann man nun in der Bibliothek des Klosters Spruchrollen schreiben (Modell "SCROLLMOB_KLOSTER.MDL", "ITMI_VBE_BLANKSCROLL_01.MRM" und Animationen von VarusBikerEdition). Benötigt werden dazu die selben Gegenstände wie für eine Rune, nur statt einem Runenstein ein Stück Spruchrollenpapier. Der Magier kann jeweils die Spruchrollen aus seinem magisches Kreis (egal ob er die Runen beherrscht oder nicht) schreiben. Gorax verkauft leere Spruchrollen.
+-Bug gefixt dass wenn man beim erstellen der Eisblock- bzw. "Untote vernichten"-Rune nicht genug Rohstoffe hat, trotzdem einen Runenstein verbaucht hat
+-Ein Attributpunkt kostet jetzt genau einen Lernpunkt
+-Ein magischer Kreis kostet genau so viele Lernpunkte wie dessen Stufe
+-Ein Waffentalentpunkt kostet jetzt genau einen Lernpunkt
+-Taschendiebstahl und Schlösser knacken kosten jetzt 5 LP
+-Schmiedetalente kosten jetzt je nach Schwierigkeit des Schwertes beginnend bei 1 bis zu 5 LP
+-Regenerationstränke brauen lernen kosten jetzt je nach Regenerationsintensität 1 bis 4 LP
+-Permanente Tränke brauen lernen kosten 5 LP
+-Tiertrophäen nehmen lernen kostet jetzt normalerweise 1 LP, Herzen nehmen und Blutfliegenflügel 2 LP (weil etwas schwieriger), Drachentrophäen 3 LP
+-Alle Sprachen der Erbauer kosten jetzt 5 LP
+-Paladinrunen lernen kostet jetzt 1 bis 5 LP
+-Magierrunen erstellen lernen kostet jetzt so viel LP wie der benötigte magische Kreis der Rune
+-Cassia zeigt im Dialog jetzt auch die richtigen Lernpunktekosten für den Taschendiebstahl an
