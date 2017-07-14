@@ -1,7 +1,7 @@
 [BEGINVDF]
 Comment=
-BaseDir=D:\Spiele\Gothic\2\Mods\ACGIM raw
-VDFName=D:\Spiele\Gothic\2\Mods\ACGIM\ACGIM.mod
+BaseDir=C:\Users\Amir\Desktop\ACGIM-Gothic-2
+VDFName=C:\Users\Amir\Desktop\ACGIM.mod
 [FILES]
 _work\data\Worlds\NewWorld\NewWorld.zen
 _work\data\Anims\_compiled\ARMOR_BATTLEMAGE.MDM -r
