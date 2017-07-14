@@ -18,7 +18,8 @@ INSTANCE MENU_MAIN(C_MENU_DEF)
 	items[8]		= "MENUITEM_MAIN_INTRO"; 
 	items[9]		= "MENUITEM_MAIN_CREDITS";	
 	items[10]	= "MENUITEM_MAIN_EXIT";
-	items[11]     = "MENUITEM_MAIN_ACGIMModCredits";
+	items[11]     = "MENUITEM_MAIN_ACGIMModCredits1";
+	items[12]     = "MENUITEM_MAIN_ACGIMModCredits2";
 	
 	defaultOutGame	= 3;	// NEWGAME
 	defaultInGame	= 5;	// SAVEGAME
@@ -249,14 +250,30 @@ instance MENUITEM_MAIN_ACGIMModTitle(C_MENU_ITEM_DEF)
 	flags			= flags & ~IT_SELECTABLE;
 };
 
-instance MENUITEM_MAIN_ACGIMModCredits(C_MENU_ITEM_DEF) 
+instance MENUITEM_MAIN_ACGIMModCredits1(C_MENU_ITEM_DEF) 
 {
 	fontName 		= 	MENU_FONT_SMALL;
 	backpic		= MENU_ITEM_BACK_PIC;
-	text[0]		= "This mod uses addons made by others than myself. Check the Readme for the autors.\nBe fair! Give Credit!";
+	text[0]		= "This mod uses addons made by others than myself.";
 	// Positionen  und Dimensionen	
 	posx		= 0;
-	posy		= MENU_MAIN_Y + MENU_MAIN_DY*9;
+	posy		= MENU_MAIN_Y + MENU_MAIN_DY*10;
+
+	dimx		= 8100;
+	dimy		=  750;
+
+	flags			= flags | IT_TXT_CENTER;
+	flags			= flags & ~IT_SELECTABLE;
+};
+
+instance MENUITEM_MAIN_ACGIMModCredits2(C_MENU_ITEM_DEF) 
+{
+	fontName 		= 	MENU_FONT_SMALL;
+	backpic		= MENU_ITEM_BACK_PIC;
+	text[0]		= "Check the Readme for the authors. Be fair! Give Credit!";
+	// Positionen  und Dimensionen	
+	posx		= 0;
+	posy		= MENU_MAIN_Y + MENU_MAIN_DY*11;
 
 	dimx		= 8100;
 	dimy		=  750;

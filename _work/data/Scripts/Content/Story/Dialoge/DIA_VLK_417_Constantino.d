@@ -768,7 +768,8 @@ FUNC VOID DIA_Constantino_MushroomsRunning_Info()
 
 func void DIA_Constantino_MushroomsRunning_Sell()
 {
-	var int nMushrooms01, nMushrooms02;
+	var int nMushrooms01;
+	var int nMushrooms02;
 	var int Dunkelpilz_dabei; Dunkelpilz_dabei = FALSE;
 	
 	nMushrooms01 = Npc_HasItems(other, ItPl_Mushroom_01);
