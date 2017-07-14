@@ -26,6 +26,7 @@ instance BDT_1083_Addon_Esteban (Npc_Default)
 	// ------ Inventory ------
 	B_CreateAmbientInv (self); 
 	CreateInvItems (self, ITMI_Addon_Stone_01,4);//MISSIONITEMS!
+	CreateInvItems(self, ITKE_Addon_Esteban, 1);
 	
 	// ------ visuals ------																		
 	B_SetNpcVisual 		(self, MALE, "Hum_Head_Thief", Face_L_ToughBart_Quentin, BodyTex_L, ITAR_BDT_H);	

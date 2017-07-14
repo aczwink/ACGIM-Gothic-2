@@ -1,0 +1,5 @@
+Getestet mit:
+Blender 2.76b
+entweder der ersten oder letzten version von KrxImpExp
+
+Immer importieren und exportieren, niemals als Blender Datei speichern oder andere Importer/Exporter als die von KrxImpExp nehmen.

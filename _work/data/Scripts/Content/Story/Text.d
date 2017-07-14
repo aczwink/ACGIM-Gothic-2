@@ -660,6 +660,7 @@ const string NAME_Trank			= "Trank";
 const string NAME_Rune			= "Rune";
 const string NAME_Spruchrolle	= "Spruchrolle";
 const string NAME_Key			= "Schlüssel";
+const string NAME_KeyRusty = "Rostiger Schlüssel";
 
 const string NAME_Addon_Belt			= "Gürtel";
 const string NAME_Addon_BeltMage		= "Schärpe";

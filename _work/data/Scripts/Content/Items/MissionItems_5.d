@@ -55,29 +55,6 @@ func void Use_XardasLetterToOpenBook ()
 	MIS_Xardas_SCCanOpenIrdorathBook  = TRUE;	//Joly:  Spieler kann nun das Buch im Kloster lesen und findet so die geheime Bibliothek!
 };
 
-
-//**********************************************************************************
-//	ItKe_MonastarySecretLibrary_Mis 		Schlüssel zur geheimen Bibliothek
-//**********************************************************************************
-
-INSTANCE ItKe_MonastarySecretLibrary_Mis (C_Item)
-{
-	name 				=	"Schlüssel" ;
-
-	mainflag 			=	ITEM_KAT_NONE;
-	flags 				=	ITEM_MISSION;
-
-	value 				=	Value_Key_02;
-
-	visual 				=	"ItKe_Key_02.3ds";
-	material 			=	MAT_METAL;
-
-	description			= 	name;
-	
-	TEXT[0]				= 	"aus dem Buch ´Die Hallen von Irdorath´";
-	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
-};
-
 //**********************************************************************************
 //	ItWr_HallsofIrdorath_Mis
 //**********************************************************************************
@@ -447,38 +424,6 @@ func void UseITWr_ForgedShipLetter_MIS ()
 					Doc_SetMargins	(nDocID, -1, 200, 50, 50, 50, 1);
 					Doc_Show		(nDocID);
 		
-}; 
-
-INSTANCE ITKE_OC_MAINGATE_MIS(C_Item)
-{
-	name 				=	"Turmschlüssel der Haupttorwache";
-
-	mainflag 			=	ITEM_KAT_NONE;
-	flags 				=	ITEM_MISSION;
-
-	value 				=	Value_Key_01;
-
-	visual 				=	"ItKe_Key_01.3ds";
-	material 			=	MAT_METAL;
-
-	description			= 	name;
-	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
-};
-
-INSTANCE ITKE_SHIP_LEVELCHANGE_MIS(C_Item)	//Joly: führt zum Levelchange Kapitel 6!!!!!!!!!!!!!!!!!!!!!!
-{
-	name 				=	"Kajütenschlüssel des Kapitäns";
-
-	mainflag 			=	ITEM_KAT_NONE;
-	flags 				=	ITEM_MISSION;
-
-	value 				=	Value_Key_03;
-
-	visual 				=	"ItKe_Key_03.3ds";
-	material 			=	MAT_METAL;
-
-	description			= 	name;
-	TEXT[5]				= 	NAME_Value;	COUNT[5]	= value;
 };
 
 INSTANCE ItPo_PotionOfDeath_01_Mis(C_Item)

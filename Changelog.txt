@@ -1,3 +1,8 @@
+v0.3
+-Esteban hat nun den Schlüssel für seine Truhe dabei
+-Schlüssel so benannt dass man besser weiß welcher wofür ist
+-Unbenutzte Items gelöscht (es wäre auch nicht sinnvoll gewesen diese einzufügen)
+
 v0.2.1
 -Cavalorn tritt nun erst zur Gruppe bei wenn man "Lass uns die Kerle aufmischen" sagt
 -Wenn man Constantino Pilze gibt, werden sie nun gelöscht damit man sie nicht einfach zurück kaufen und ihm wieder geben kann
