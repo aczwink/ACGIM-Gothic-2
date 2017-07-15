@@ -1,3 +1,6 @@
+v0.3.1
+-Wenn man Lee nach dem Ring des Wassers fragt, kann man nun trotzdem noch Hilfe bzgl. der Gildenwahl von Lares bekommen
+
 v0.3
 -Esteban hat nun den Schlüssel für seine Truhe dabei
 -Schlüssel so benannt dass man besser weiß welcher wofür ist
