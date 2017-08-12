@@ -3,32 +3,23 @@ Comment=
 BaseDir=C:\Users\Amir\Desktop\ACGIM-Gothic-2
 VDFName=C:\Users\Amir\Desktop\ACGIM.mod
 [FILES]
+_work\data\Anims\_compiled\*.MAN -r
+_work\data\Anims\_compiled\*.MDL -r
+_work\data\Anims\_compiled\*.MDM -r
+_work\data\Anims\_compiled\*.MSB -r
 _work\data\Worlds\NewWorld\NewWorld.zen
-_work\data\Anims\_compiled\ARMOR_BATTLEMAGE.MDM -r
 _work\data\Scripts\_compiled\Gothic.dat -r
 _work\data\Scripts\_compiled\Menu.dat -r
 _work\data\Textures\_compiled\HUM_TPLS_ARMOR_V1-C.TEX -r
-_work\data\Anims\_compiled\HUMANS.MSB -r
 _work\data\Sound\Speech\*.WAV -r
 _work\data\Scripts\Content\Cutscene\OU.bin -r
-_work\data\Anims\_compiled\SCROLLMOB_KLOSTER.MDL -r
 _work\data\Meshes\_compiled\ITMI_VBE_BLANKSCROLL_01.MRM -r
-_work\data\Anims\_compiled\HUMANS-S_SCROLLMOB_S0.MAN -r
-_work\data\Anims\_compiled\HUMANS-S_SCROLLMOB_S1.MAN -r
-_work\data\Anims\_compiled\HUMANS-T_SCROLLMOB_S0_2_S1.MAN -r
-_work\data\Anims\_compiled\HUMANS-T_SCROLLMOB_S0_2_STAND.MAN -r
-_work\data\Anims\_compiled\HUMANS-T_SCROLLMOB_S1_2_S0.MAN -r
-_work\data\Anims\_compiled\HUMANS-T_SCROLLMOB_STAND_2_S0.MAN -r
 _work\data\Worlds\Addon\AddonWorld.zen -r
 _work\data\Worlds\OldWorld\OldWorld.zen -r
 _work\data\Worlds\NewWorld\DragonIsland.zen
 _work\data\Meshes\_compiled\ARMOR_PAL_H4.MRM -r
-_work\data\Anims\_compiled\ARMOR_PAL_H4_REV.MDM -r
-_work\data\Anims\_compiled\LUMPEN1.MDM -r
 _work\data\Textures\_compiled\TRAUBE_06-C.TEX -r
 _work\data\Textures\_compiled\LUMPEN1-C.TEX -r
-_work\data\Anims\_compiled\ARMOR_CARPENTER.MDM -r
-_work\data\Anims\_compiled\ARMOR_WORKER.MDM -r
 _work\data\Textures\_compiled\CARPENTER-C.TEX -r
 _work\data\Textures\_compiled\WORKER-C.TEX -r
 [EXCLUDE]
