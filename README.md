@@ -8,3 +8,4 @@ An improvement mod for the game "Gothic 2: Night of the Raven" by "Piranha Bytes
 * RysaPL for his "Citizen/worker" texture (downloaded from: https://www.worldofgothic.de/?go=moddb&action=view&fileID=728&cat=0&page=0&order=0&searchkey=RysaPL&searchcat=2)
 * juno1 for his body meshes of the hero as armors (downloaded from: https://www.worldofgothic.de/?go=moddb&action=view&fileID=987&cat=0&page=0&order=0&searchkey=juno1&searchcat=2)
 * Dalai Zoll for his paladin armor with visor down (downloaded from: https://www.worldofgothic.de/?go=moddb&action=view&fileID=1227&cat=0&page=0&order=0&searchkey=Dalai%20Zoll&searchcat=2)
+* Maximus93 (https://forum.worldofplayers.de/forum/members/168594-Maximus93) for the removed bend animation when picking up objects (download link from thread: https://forum.worldofplayers.de/forum/threads/1467284-Gothic-II-B%C3%BCck-Animation-entfernen)
