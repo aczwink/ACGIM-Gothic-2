@@ -338,6 +338,9 @@ const int REAL_TALENT_CROSSBOW				= 87;
 
 const int AIV_SpellLevel 					= 88;
 
+const int AIV_ACGIM_TRADER_MW = 90;
+const int AIV_ACGIM_TRADER_RW = 91;
+
 // ***************************************************
 // Globalvariablen für Petzen/Absolution/News - System
 // ***************************************************

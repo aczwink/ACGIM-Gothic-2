@@ -356,8 +356,8 @@ FUNC INT DIA_Cornelius_PICKPOCKET_Condition()
 	if (Npc_GetTalentSkill (other,NPC_TALENT_PICKPOCKET) == 1) 
 	&& (self.aivar[AIV_PlayerHasPickedMyPocket] == FALSE)
 	&& (Npc_HasItems(self, ItWr_CorneliusTagebuch_Mis) >= 1)
-	&&  (other.attribute[ATR_DEXTERITY] >= (60 - Theftdiff))
-	
+	&& (other.attribute[ATR_DEXTERITY] >= (60 - Theftdiff))
+	&& (Kapitel >= 3)
 	{
 		return TRUE;
 	};

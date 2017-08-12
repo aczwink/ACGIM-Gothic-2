@@ -165,6 +165,7 @@ AI\HUMAN\C_Human\C_WantToReactToSneaker.d
 AI\MAGIC\B_ReadySpell.d
 AI\MAGIC\B_SelectSpell.d
 
+General\*.d
 
 AI\HUMAN\B_Human\B_FinishingMove.d
 AI\HUMAN\B_Human\B_SelectWeapon.d
@@ -192,7 +193,6 @@ STORY\B_Content\B_GiveThiefXP.d
 STORY\B_Story\B_GiveInvItems.d
 STORY\B_Content\B_Beklauen.d
 
-General\*.d
 STORY\Monastery\*.d
 
 STORY\B_AssignAmbientInfos\B_Announce_Herold.d

@@ -940,7 +940,6 @@ func void B_Cavalorn_Triggered_Wohin ()
 func void DIA_Addon_Cavalorn_Triggered_OBack ()
 {
 	AI_UnequipArmor	(self);
-	CreateInvItems (self, ITAR_BAU_L, 1);	
 	Npc_RemoveInvItems	(self, ITAR_RANGER_Addon,	Npc_HasItems (self, ITAR_RANGER_Addon ) );
 	Npc_RemoveInvItems	(self, ITAR_Fake_RANGER,	Npc_HasItems (self, ITAR_Fake_RANGER ) );
 	AI_EquipBestArmor (self); 
@@ -952,7 +951,6 @@ func void DIA_Addon_Cavalorn_Triggered_OBack ()
 func void DIA_Addon_Cavalorn_Triggered_Pal ()
 {
 	AI_UnequipArmor	(self);
-	CreateInvItems (self, ITAR_BAU_L, 1);	
 	Npc_RemoveInvItems	(self, ITAR_RANGER_Addon,	Npc_HasItems (self, ITAR_RANGER_Addon ) );
 	Npc_RemoveInvItems	(self, ITAR_Fake_RANGER,	Npc_HasItems (self, ITAR_Fake_RANGER ) );
 	AI_EquipBestArmor (self); 

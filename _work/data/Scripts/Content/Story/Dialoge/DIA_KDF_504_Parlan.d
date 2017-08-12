@@ -1229,7 +1229,6 @@ FUNC VOID DIA_Parlan_IAmParlan_Info()
 		Info_AddChoice (DIA_Parlan_IAmParlan,"Ich werde tun, was mir gefällt.",DIA_Parlan_IAmParlan_MyChoice);
 		Info_AddChoice (DIA_Parlan_IAmParlan,"Klar.",DIA_Parlan_IAmParlan_OK);
 	};
-	Wld_InsertItem (ItKe_KlosterBibliothek,"NW_MONASTERY_CORRIDOR_02"); 
 };
 
 FUNC VOID DIA_Parlan_IAmParlan_MyChoice ()

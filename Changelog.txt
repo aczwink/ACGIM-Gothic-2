@@ -1,3 +1,14 @@
+v0.4
+-Der Schlüssel zur Bibliothek wird als nicht-Magier nun nicht mehr vor dessen Tür gespawnt, da Parlan einem den sowieso gibt. Man muss schon mit ihm sprechen wenn man da rein will.
+-Man kann Cornelius nun erst im 3. Kapitel beklauen. Vorher kommt die Option einfach nicht.
+-Juan hat nun die 20 Flaschen Grog noch wenn man ihn tötet.
+-Alle Banditen, die auf "Wie komme ich schnell an viel Gold?" reagieren, heißen nun "Genervter Bandit" oder entsprechend "Genervter Gardist". Das ganze geht nur noch in 3 Stufen, das erste mal kriegt man es gesagt, beim zweiten Mal soll man sich verpissen und beim dritten Mal wird angegriffen.
+-Bug gefixt, bei dem Cavalorn am Steinkreis nackt ist.
+-Die Lagerwache in der Burg im Minental heißt nun entsprechend. Der Schlüssel kann geklaut werden.
+-Vorrübergehende Lösung für das Problem, dass sich die Händler die besten Waffen selbst nehmen.
+-Logischere automatische Auswahl einer Karte beim Drücken des Hotkeys.
+-Man trinkt nun auch die Tränke für vollständige Heilung per Hotkey.
+
 v0.3.1
 -Wenn man Lee nach dem Ring des Wassers fragt, kann man nun trotzdem noch Hilfe bzgl. der Gildenwahl von Lares bekommen
 

@@ -1180,7 +1180,7 @@ func void STARTUP_OLDCAMP ()
 	Wld_InsertNpc	(PAL_267_Sengrath,"OC1"); 
 	Wld_InsertNpc	(PAL_268_Udar,"OC1"); 
 
-	Wld_InsertNpc	(PAL_264_Ritter,"OC1"); 
+	Wld_InsertNpc	(OW_PAL_264_Lagerwache,"OC1"); 
 	Wld_InsertNpc	(PAL_265_Ritter,"OC1"); 
 	Wld_InsertNpc	(PAL_266_Ritter,"OC1"); 
 	
