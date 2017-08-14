@@ -1,3 +1,6 @@
+v0.4.1
+-Man muss nun nicht mehr einer Gilde angehören um den Dialog mit Lord Hagen abzuschließen, sodass man ins zweite Kapitel kommt. Wenn man z.B. die Wachen mit einem Schlafzauber lahm legt kommt man direkt zu ihm.
+
 v0.4
 -Der Schlüssel zur Bibliothek wird als nicht-Magier nun nicht mehr vor dessen Tür gespawnt, da Parlan einem den sowieso gibt. Man muss schon mit ihm sprechen wenn man da rein will.
 -Man kann Cornelius nun erst im 3. Kapitel beklauen. Vorher kommt die Option einfach nicht.
