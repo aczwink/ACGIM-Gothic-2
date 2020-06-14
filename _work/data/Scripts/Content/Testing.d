@@ -1,4 +1,4 @@
-/*INSTANCE VariablenSetzBrief1(C_Item)
+INSTANCE VariablenSetzBrief1(C_Item)
 {
 	name 				=	"VariablenSetzBrief";
 
@@ -16,13 +16,8 @@
 
 func void UseVariablenSetzBrief1()
 {
-	MIS_Constantino_Mushrooms = LOG_RUNNING;
-	Constantino_TeachAlchemy = TRUE;
-	CreateInvItems(self, ItPl_Blueplant, 100);
-	CreateInvItems(self, ItPl_Temp_Herb, 100);
-	CreateInvItems(self, ItPl_Mushroom_01, 100);
-	CreateInvItems(self, Itmi_gold, 10000);
-};*/
+	Hagen_BroughtMessage = TRUE;
+};
 
 INSTANCE VariablenSetzBrief2(C_Item)
 {

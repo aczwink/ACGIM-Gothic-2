@@ -805,10 +805,10 @@ func void DIA_Addon_Vatras_NowRanger_Info ()
 	AI_Output	(other, self, "DIA_Addon_Vatras_NowRanger_15_00"); //Ich bin bereit, mich dem Ring des Wassers anzuschließen!
 	AI_Output	(self, other, "DIA_Addon_Vatras_NowRanger_05_01"); //Dann hast du Lord Hagen deine Nachricht gebracht?
 	
-	if (Kapitel >= 2) //Pass-Schlüssel von Hagen
+	if (Hagen_BroughtMessage == TRUE)
 	{
 		AI_Output	(other, self, "DIA_Addon_Vatras_NowRanger_15_02"); //Ja.
-		if (MIS_OLDWORLD != LOG_SUCCESS)
+		if ( (Hagen_BringProof == TRUE) && (MIS_OLDWORLD != LOG_SUCCESS) )
 		{
 			AI_Output (other, self, "DIA_Addon_Vatras_NowRanger_15_03"); //Aber er hat mich ins Minental geschickt, um einen Beweis für meine Worte zu bringen!
 			AI_Output (self, other, "DIA_Addon_Vatras_NowRanger_05_04"); //DU musst entscheiden, was du als Nächstes tun willst.

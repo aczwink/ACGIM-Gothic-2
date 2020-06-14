@@ -387,6 +387,8 @@ func void DIA_Lord_Hagen_Armee_Info ()
 	AI_Output (self, other, "DIA_Lord_Hagen_Armee_04_08"); //Sag mir - warum sollte ich deinen Worten Glauben schenken?
 	AI_Output (other, self, "DIA_Lord_Hagen_Armee_15_09"); //Die Frage ist doch nicht, ob du mir glauben kannst. Die Frage ist, kannst du es dir leisten, mir NICHT zu glauben, wenn ich die Wahrheit sage.
 	AI_Output (self, other, "DIA_Lord_Hagen_Armee_04_10"); //Solange ich keinen Beweis habe, kann ich mir nicht leisten, noch mehr Männer dorthin zu schicken.
+
+	Hagen_BroughtMessage = TRUE;
 };
 
 ///////////////////////////////////////////////////////////////////////
@@ -412,15 +414,31 @@ func int DIA_Lord_Hagen_Proof_Condition ()
 func void DIA_Lord_Hagen_Proof_Info ()
 {
 	AI_Output (other, self, "DIA_Lord_Hagen_Proof_15_00"); //Ich soll dir also einen Beweis bringen?
-	
-	AI_Output (self, other, "DIA_Lord_Hagen_Proof_04_01"); //Genau. Überquere den Pass und mache dich auf den Weg ins Minental. Suche dort nach der Expedition - und wenn du sie gefunden hast, sprich mit Kommandant Garond.
-	AI_Output (self, other, "DIA_Lord_Hagen_Proof_04_02"); //Wenn jemand weiß, wie die Situation vor Ort ist, dann er.
-	AI_Output (self, other, "DIA_Lord_Hagen_Proof_04_03"); //Falls sich deine Worte bestätigen, dann bin ich bereit, dir zu helfen.
-	AI_Output (other, self, "DIA_Lord_Hagen_Proof_15_04"); //Das heißt, du wirst mir das Auge Innos' aushändigen?
-	AI_Output (self, other, "DIA_Lord_Hagen_Proof_04_05"); //Das Auge Innos' ... gut. Bring mir den Beweis, dann sorge ich dafür, dass es dir gestattet wird, das Amulett anzulegen.
-	AI_Output (other, self, "DIA_Lord_Hagen_Proof_15_06"); //Dann kann ich sagen, ich habe dein Wort in dieser Sache?
-	AI_Output (self, other, "DIA_Lord_Hagen_Proof_04_07"); //Das kannst du - denn du hast es.
-	Hagen_BringProof = TRUE;
+
+	IF (hero.guild != GIL_NONE)
+	&& (hero.guild != GIL_NOV)
+	{
+		AI_Output (self, other, "DIA_Lord_Hagen_Proof_04_01"); //Genau. Überquere den Pass und mache dich auf den Weg ins Minental. Suche dort nach der Expedition - und wenn du sie gefunden hast, sprich mit Kommandant Garond.
+		AI_Output (self, other, "DIA_Lord_Hagen_Proof_04_02"); //Wenn jemand weiß, wie die Situation vor Ort ist, dann er.
+		AI_Output (self, other, "DIA_Lord_Hagen_Proof_04_03"); //Falls sich deine Worte bestätigen, dann bin ich bereit, dir zu helfen.
+		AI_Output (other, self, "DIA_Lord_Hagen_Proof_15_04"); //Das heißt, du wirst mir das Auge Innos' aushändigen?
+		AI_Output (self, other, "DIA_Lord_Hagen_Proof_04_05"); //Das Auge Innos' ... gut. Bring mir den Beweis, dann sorge ich dafür, dass es dir gestattet wird, das Amulett anzulegen.
+		AI_Output (other, self, "DIA_Lord_Hagen_Proof_15_06"); //Dann kann ich sagen, ich habe dein Wort in dieser Sache?
+		AI_Output (self, other, "DIA_Lord_Hagen_Proof_04_07"); //Das kannst du - denn du hast es.
+		Hagen_BringProof = TRUE;
+	}
+	else
+	{
+		if (hero.guild == GIL_NOV)
+		{
+			PrintScreen	(PRINT_Addon_GuildNeeded_NOV, -1,-1, FONT_Screen ,2);
+		}
+		else 
+		{	
+			PrintScreen	(PRINT_Addon_GuildNeeded, -1,-1, FONT_Screen ,2);
+		};	
+		B_Say (self, other, "$NOLEARNNOPOINTS");
+	};	
 };
 ///////////////////////////////////////////////////////////////////////
 //	Info Auge

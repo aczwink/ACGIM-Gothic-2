@@ -1080,9 +1080,7 @@ func int DIA_Addon_Lares_Gilde_Condition ()
 {	
 	if (Lares_RangerHelp == TRUE)
 	&& (other.guild == GIL_NONE)
-	&& (RangerHelp_gildeMIL == FALSE)
-	&& (RangerHelp_gildeSLD == FALSE)
-	&& (RangerHelp_gildeKDF == FALSE)
+	&& ( (RangerHelp_gildeMIL == FALSE) || (RangerHelp_gildeSLD == FALSE) || (RangerHelp_gildeKDF == FALSE) )
 	{
 		return TRUE;
 	};
@@ -1099,9 +1097,18 @@ func void DIA_Addon_Lares_Gilde_Info ()
 		
 	Info_ClearChoices (DIA_Addon_Lares_Gilde);
 	Info_AddChoice	(DIA_Addon_Lares_Gilde, "Ich denk' nochmal drüber nach...", DIA_Addon_Lares_Gilde_BACK);
-	Info_AddChoice	(DIA_Addon_Lares_Gilde, "Die Feuermagier.", DIA_Addon_Lares_Gilde_KDF );
-	Info_AddChoice	(DIA_Addon_Lares_Gilde, "Die Söldner.", DIA_Addon_Lares_Gilde_SLD );	
-	Info_AddChoice	(DIA_Addon_Lares_Gilde, "Die Miliz.", DIA_Addon_Lares_Gilde_MIL );
+	if(RangerHelp_gildeKDF == FALSE)
+	{
+		Info_AddChoice	(DIA_Addon_Lares_Gilde, "Die Feuermagier.", DIA_Addon_Lares_Gilde_KDF );
+	};
+	if(RangerHelp_gildeSLD == FALSE)
+	{
+		Info_AddChoice	(DIA_Addon_Lares_Gilde, "Die Söldner.", DIA_Addon_Lares_Gilde_SLD );	
+	};
+	if(RangerHelp_gildeMIL == FALSE)
+	{
+		Info_AddChoice	(DIA_Addon_Lares_Gilde, "Die Miliz.", DIA_Addon_Lares_Gilde_MIL );
+	};
 };
 func void DIA_Addon_Lares_Gilde_BACK ()
 {

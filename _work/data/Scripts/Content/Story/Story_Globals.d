@@ -227,6 +227,7 @@ var int SCUsed_AllNWTeleporststones;			//= TRUE SC benutzte alle Teleportstation
 var int SC_SAW_ORNAMENT_MAP;					//= TRUE  SC hat gesehen, wo er hin muss zu den teinkreisen
 var int Lord_Hagen_GotOrnament;					//= TRUE  SC hat das fehlende Ornament von hagen bekommen
 var int Hagen_BringProof;						// Ohne Guild reinflippern FIX
+var int Hagen_BroughtMessage;
 var int Vatras2Saturas_FindRaven_Open;			//= TRUE SC hat den Brief von Vatras an Saturas geöffnet.
 
 //Teleportsteine

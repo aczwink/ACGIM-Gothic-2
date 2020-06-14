@@ -1,3 +1,7 @@
+v0.5
+-Man kann Lares nun mehrfach um Hilfe bei der Gildenwahl bitten, sodass man seine Wahl später ändern kann
+-Man muss nun nicht mehr ins zweite Kapitel gehen um sich dem Ring des Wassers anzuschließen. Man braucht aber wieder eine Gilde um ins zweite Kapitel zu kommen
+
 v0.4.1
 -Man muss nun nicht mehr einer Gilde angehören um den Dialog mit Lord Hagen abzuschließen, sodass man ins zweite Kapitel kommt. Wenn man z.B. die Wachen mit einem Schlafzauber lahm legt kommt man direkt zu ihm.
 

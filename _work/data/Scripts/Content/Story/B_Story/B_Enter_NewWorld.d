@@ -32,6 +32,12 @@ FUNC VOID B_ENTER_NEWWORLD_Kapitel_1 ()
 				SC_GotPORTALTEMPELWALKTHROUGHKey = TRUE;
 			};
 		};
+
+		//Addon patch m.f. greg muss weg
+		if (GregIsBack == TRUE)
+		{
+			B_RemoveNpc     (PIR_1300_Addon_Greg_NW);
+		};
 		
 		//- ---- Gefangene in Addonworld töten und neue in Newworld---------
 		
@@ -54,15 +60,7 @@ FUNC VOID B_ENTER_NEWWORLD_Kapitel_1 ()
 //****************************************************
 	var int EnterNW_Kapitel2;
 FUNC VOID B_ENTER_NEWWORLD_Kapitel_2 ()
-{
-	
-	//Addon patch m.f. greg muss weg
-	if (GregIsBack == TRUE)
-	{
-		B_RemoveNpc     (PIR_1300_Addon_Greg_NW);
-	};
-	
-	
+{	
 	if (EnterNW_Kapitel2 == FALSE)
 	{
 		// ------ Gilden-Attitüden ändern ------
@@ -925,7 +923,8 @@ FUNC VOID B_ENTER_NEWWORLD_Kapitel_6 ()
 
 FUNC VOID B_ENTER_NEWWORLD ()	
 {
-	B_InitNpcGlobals (); 
+	B_InitNpcGlobals ();
+
 	if (Kapitel >= 1)	{B_ENTER_NEWWORLD_Kapitel_1 ();	};
 	if (Kapitel >= 2)	{B_ENTER_NEWWORLD_Kapitel_2 ();	};
 	if (Kapitel >= 3)	{B_ENTER_NEWWORLD_Kapitel_3 ();	};
