@@ -69,8 +69,6 @@ func void B_GiveTradeInv (var C_NPC slf)
 //********************************************************************
 
 	B_ClearRuneInv (slf);
-	//SaveTraderWeapons(slf); //TODO: this doesn't work currently
-	AI_UnequipWeapons(slf);
 	
 	if (slf.aivar[AIV_ChapterInv] < Kapitel)
 	{

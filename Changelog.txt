@@ -1,3 +1,9 @@
+v0.5.1
+-Bei Lehrern kann man nun bis zu deren Maximum lernen, ohne seine attributsteigernden Items ausziehen zu müssen
+-Bugfix beim Beklauen der Lagerwache im Minental
+-Martin verkauft nun nicht mehr den Meisterdegen (es ist einer der besten 1H-Waffen für Gildenlose. Dafür sollte man auch was leisten müssen.)
+-Den früheren "Fix", dass sich Händler die besten Waffen nehmen wieder entfernt. Es gibt keine brauchbare Lösung für dieses Problem, die alle Fälle vernünftig abdeckt. Workarounds: Dem Händler eine bessere Waffe verkaufen, bzw. ihm per Cheat kurz die Waffe ablegen und dann abkaufen. Beides nicht ideal aber mindestens genausogut wie jede "Lösungsmöglichkeit" für das Problem.
+
 v0.5
 -Man kann Lares nun mehrfach um Hilfe bei der Gildenwahl bitten, sodass man seine Wahl später ändern kann
 -Man muss nun nicht mehr ins zweite Kapitel gehen um sich dem Ring des Wassers anzuschließen. Man braucht aber wieder eine Gilde um ins zweite Kapitel zu kommen
